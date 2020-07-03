@@ -1,0 +1,59 @@
+body{
+    font-family:cursive;
+    text-align: center;
+   background:linear-gradient(50deg,#4646a0, lightcoral);
+    
+    background-repeat: round;
+}
+#main{
+    background-color: rgb(207, 212, 218);
+    height: 100%;
+    width: 600px;
+    margin:auto;
+   color: :hsl(229, 11%, 31%);
+}
+#head{
+    margin: auto auto 0px;
+    background-color: #37375c;
+    
+}
+#description{
+    color: rgb(128, 128, 128);
+}
+#form{
+
+}
+#name-label{
+    align-self: center;
+}
+#drop{
+    text-align: left;
+    width:400px;
+    padding: 10px;
+    margin-left:190px;
+}
+#input{
+    margin-right: auto;
+    
+}
+#number{
+    width: 90px;
+}
+#checkbox{
+    text-align: left;
+    width:400px;
+    padding: 10px;
+    margin-left:190px;
+}
+#submit{
+   background-color: #37377c;
+   box-shadow: grey 0px 0px 10px;
+   width: 80px;
+   height:30px; 
+   font-size: large;
+    transition: all 1.6s;
+}
+#submit:hover{
+    background-color: aqua;
+    box-shadow: black 0px 0px 5px;
+}

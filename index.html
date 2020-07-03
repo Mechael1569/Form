@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My second website</title>
+</head>
+<body>
+    <div id="main">
+         <div class="head">
+                <h1 id="title">Survey form</h1>
+                <p id="description">Please fill the form to help me!</p>
+         </div>
+        <div id="form"> 
+            <form action="" id="survey-form">
+                <label for="name"id="name-label">
+                    <span> Name</span><br>
+                    <input
+                        id="name"
+                        type="text"
+                        placeholder="enter your name"
+                        name="name" 
+                        required
+                    >
+                </label><br>
+                <label for="email"id="email-label">
+                    <span>email</span><br>
+                    <input
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="enter your email" 
+                        required
+                    >
+                </label><br>
+                <label for="Age" id="number-label">
+                    <span>Age(optional)</span><br>
+                    <input
+                        id="number" 
+                        min="10" 
+                        max="99" 
+                        type="number" 
+                        id="number" 
+                        name="Age" 
+                        placeholder="Your age?"
+                    >
+                </label><br>
+                <span>Which of the programming languages do you like best</span><br>
+               <select name="role" id="dropdown">
+                    <option disabled selected value>Select a current language</option>
+                    <option value="html">html</option>
+                    <option value="java">java</option>
+                    <option value="javascript">javascript</option>
+                    <option value="python">python</option>
+                    <option value="php">php</option>
+                    <option value="c++">c++</option>
+                    <option value="c#">c#</option>
+                    <option value="there is no">There is no language in this list that I want</option>    
+                </select><br>
+                <p>What do you suggest me to do with programming?</p><br>
+                <div id="drop">
+                <label>
+                   
+                    <input
+                        type="radio"
+                        name="user-recommend"
+                        value="You have to dispose of programming!"
+                    >
+                    <span>You have to dispose of programming!</span>
+                </label><br>
+                <label>
+                    
+                    <input
+                        type="radio"
+                        name="user-recommend"
+                        value="Continue programming your work is good!"
+                    >
+                    <span>Continue programming your work is good</span>
+                </label><br>
+                <label>
+                   
+                    <input
+                        type="radio"
+                        name="user-recommend"
+                        value="I don`t know"
+                    >
+                    <span>I don`t know</span>
+                </label><br>
+                <label>
+                    
+                    <input
+                        type="radio"
+                        name="user-recommend"
+                        value="It is up to you"
+                    >
+                    <span>It is up to you</span>
+                </label><br>
+            </div>
+              <div id="checkbox"> 
+            <p>Which of this programming languages do you suggest me to learn in the future</p>
+                <label>
+                    <input 
+                        type="checkbox"
+                        value="java"
+                        name="prefer"
+                    >
+                    <span>java</span>
+                </label><br>
+                <label>
+                    <input 
+                        type="checkbox"
+                        value="javascript"
+                        name="prefer"
+                    >
+                    <span>javascript</span>
+                </label><br>
+                <label>
+                    <input 
+                        type="checkbox"
+                        value="php"
+                        name="prefer"
+                    >
+                    <span>php</span>
+                </label><br>
+                <label>
+                    <input 
+                        type="checkbox"
+                        value="ruby"
+                        name="prefer"
+                    >
+                    <span>ruby</span>
+                </label><br>
+                <label>
+                    <input 
+                        type="checkbox"
+                        value="C#"
+                        name="prefer"
+                    >
+                    <span>C#</span>
+                </label><br>
+                <label>
+                    <input 
+                        type="checkbox"
+                        value="python"
+                        name="prefer"
+                    >
+                    <span>python</span>
+                </label><br>
+                <label>
+                    <input 
+                        type="checkbox"
+                        value="c++"
+                        name="prefer"
+                    >
+                    <span>c++</span>
+                </label></div><br>
+                <label>
+                    <span>You can leave your comment below!</span><br>
+                    <textarea 
+                    style="font-family: sans-serif;"
+                     id="comments" 
+                     cols="30" 
+                     rows="7">
+                    </textarea>   
+                </label><br>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
