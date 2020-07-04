@@ -7,10 +7,18 @@ body{
 }
 #main{
     background-color: rgb(207, 212, 218);
-    height: 100%;
+    display: block;
     width: 600px;
     margin:auto;
-   color: :hsl(229, 11%, 31%);
+    color: hsl(229, 11%, 31%);
+    height: auto;
+}
+@media (max-width:400px){
+    #main{
+        width: auto;
+        height: auto;
+        font-size: 1.4rem;
+    }
 }
 #head{
     margin: auto auto 0px;
@@ -21,7 +29,7 @@ body{
     color: rgb(128, 128, 128);
 }
 #form{
-
+    display:block;
 }
 #name-label{
     align-self: center;
